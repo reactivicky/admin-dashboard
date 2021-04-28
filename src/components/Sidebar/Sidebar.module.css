@@ -1,0 +1,12 @@
+.navbar {
+  grid-area: sidebar;
+  background: #eee;
+  width: 300px;
+}
+
+.navbar p, .navbar a {
+  font-size: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: block;
+}

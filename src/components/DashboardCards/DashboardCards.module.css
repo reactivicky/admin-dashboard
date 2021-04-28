@@ -1,0 +1,7 @@
+.dashboardCards {
+  grid-area: cards;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 1rem;
+  padding: 1rem;
+}

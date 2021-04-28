@@ -1,0 +1,4 @@
+.dashboardTable {
+  grid-area: dbtable;
+  padding: 1rem;
+}

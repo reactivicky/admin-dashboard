@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+.appContainer {
+  display: grid;
+  grid-template-areas:
+  'sidebar cards cards'
+  'sidebar dbtable dbtable';
+  grid-template-columns: auto 1fr;
+  height: 100vh;
+}
