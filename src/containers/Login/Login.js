@@ -42,7 +42,7 @@ export default class Login extends Component {
 				<Form onSubmit={this.submitFormHandler}>
 					<Input
 						type='text'
-						placeholder='Username'
+						placeholder='Username is admin'
 						name='username'
 						value={this.state.username}
 						onChange={this.onChangeHandler}
@@ -51,7 +51,7 @@ export default class Login extends Component {
 					<br />
 					<Input
 						type='password'
-						placeholder='Password'
+						placeholder='Password is admin'
 						name='password'
 						value={this.state.password}
 						onChange={this.onChangeHandler}
